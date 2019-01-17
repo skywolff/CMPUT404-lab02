@@ -1,0 +1,22 @@
+
+Question 1:
+use SOCK_STREAM as type for socket()
+
+Question 2:
+server's sequence to establish a connection:
+    socket(), bind(), listen(), accept()
+client:
+    socket(), connect()
+server also has to have a listening socket first, before it can create a data
+socket by calling accept() to get data from the client.
+
+Question 3:
+set socket option SO_REUSEADDR to 1 by using setsockopt() sys call.
+
+Question 4:
+client address and port
+
+
+Question 5:
+
+
