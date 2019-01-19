@@ -1,6 +1,5 @@
-
 Question 1:
-use SOCK_STREAM as type for socket()
+use SOCK_STREAM as type for socket() for TCP connections
 
 Question 2:
 server's sequence to establish a connection:
@@ -18,5 +17,8 @@ client address and port
 
 
 Question 5:
+After a request was made to google, google server sends a 0 after the HTTP
+response.
 
-
+Question 6:
+https://github.com/skywolff/CMPUT404-lab02

@@ -16,8 +16,7 @@ def main():
             print("got connection from: ", clientAddr)
             while True:
                 data = dataS.recv(1024)
-                # if not data:
-                    # break
+                print(data)
                 dataS.sendall(data)
 
 
